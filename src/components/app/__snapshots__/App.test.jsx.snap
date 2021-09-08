@@ -3,10 +3,17 @@
 exports[`App component renders App 1`] = `
 <DocumentFragment>
   <h1>
-    Animal Crossing API Fetch
+    Animal Crossing
   </h1>
-  <div>
-    Aurora
+  <div
+    class="list"
+  >
+    <h3>
+      Villagers from the village
+    </h3>
+    <ul>
+      This shall be the spot for the character list.
+    </ul>
   </div>
 </DocumentFragment>
 `;

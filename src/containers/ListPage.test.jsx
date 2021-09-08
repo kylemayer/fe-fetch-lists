@@ -5,6 +5,7 @@ import ListPage from './ListPage';
 describe('List Page', () => {
   it('should render the List page', () => {
     render(<ListPage />);
-    screen.getByText('Aurora');
+    screen.getByText('Villagers from the village');
+    screen.getByRole('list');
   });
 });
