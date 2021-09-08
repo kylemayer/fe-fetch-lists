@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import {
   BrowserRouter as Router,
   Route,
@@ -10,7 +11,7 @@ import DetailsPage from '../../containers/DetailsPage';
 export default function App() {
   return (
     <Router>
-      <h1>Animal Crossing API Fetch</h1>
+      <h1>Animal Crossing</h1>
       <Switch>
         <Route
           path="/"

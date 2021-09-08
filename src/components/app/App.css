@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+    background-image: url('https://images5.alphacoders.com/956/thumb-1920-956578.jpg');
+    background-size: cover;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: monospace;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+    margin: 25px;
+}
