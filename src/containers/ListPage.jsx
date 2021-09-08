@@ -4,7 +4,7 @@ export default class ListPage extends Component {
   render() {
     return (
       <div>
-		yooooo
+		Aurora
 	   </div>
     );
   }

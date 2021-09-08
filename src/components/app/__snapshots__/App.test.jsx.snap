@@ -3,7 +3,10 @@
 exports[`App component renders App 1`] = `
 <DocumentFragment>
   <h1>
-    Hello World
+    Animal Crossing API Fetch
   </h1>
+  <div>
+    Aurora
+  </div>
 </DocumentFragment>
 `;
