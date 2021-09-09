@@ -11,8 +11,10 @@ exports[`App component renders App 1`] = `
     <h3>
       Villagers from the village
     </h3>
-    <ul>
-      This shall be the spot for the character list.
+    <ul
+      aria-label="villagers"
+    >
+      List of the villagers.
     </ul>
   </div>
 </DocumentFragment>

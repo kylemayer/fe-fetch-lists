@@ -3,9 +3,10 @@ import { render, screen } from '@testing-library/react';
 import ListPage from './ListPage';
 
 describe('List Page', () => {
-  it('should render the List page', () => {
+  it('should render the List page', async () => {
     render(<ListPage />);
-    screen.getByText('Villagers from the village');
-    screen.getByRole('list');
+
+    const ul = await screen.findByRole('list', { name: 'villagers' });
+    expect(ul).toBeInTheDocument();
   });
 });
