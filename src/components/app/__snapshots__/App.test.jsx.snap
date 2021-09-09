@@ -14,7 +14,27 @@ exports[`App component renders App 1`] = `
     <ul
       aria-label="villagers"
     >
-      List of the villagers.
+      <li>
+        <h3>
+          Apple
+        </h3>
+        <img
+          alt="Apple"
+          src="test"
+        />
+        <p>
+          test
+        </p>
+        <p>
+          old
+        </p>
+        <p>
+          fast
+        </p>
+        <p>
+          atta boy
+        </p>
+      </li>
     </ul>
   </div>
 </DocumentFragment>

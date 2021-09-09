@@ -4,21 +4,32 @@ import Villager from './Villager';
 
 const VillagerList = ({ villagers }) => (
   <ul aria-label="villagers">
-    List of the villagers.
+    {villagers.map(villager => (
+      <li key={villager.id}>
+        <Villager
+          name={villager.name}
+          image={villager.image}
+          species={villager.species}
+          birthday={villager.birthday}
+          skill={villager.skill}
+          phrase={villager.phrase}
+        />
+      </li>
+    ))}
   </ul>
 );
 
 VillagerList.propTypes = {
   villagers: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string,
-      name: PropTypes.string,
-      image: PropTypes.string,
-      species: PropTypes.string,
-      birthday: PropTypes.string,
-      skill: PropTypes.string,
-      phrase: PropTypes.string,
-    })
+      id: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired,
+      species: PropTypes.string.isRequired,
+      birthday: PropTypes.string.isRequired,
+      skill: PropTypes.string.isRequired,
+      phrase: PropTypes.string.isRequired,
+    }).isRequired
   )
 };
 

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Page should render the List page 1`] = `
+<ul
+  aria-label="villagers"
+>
+  <li>
+    <h3>
+      Apple
+    </h3>
+    <img
+      alt="Apple"
+      src="test"
+    />
+    <p>
+      test
+    </p>
+    <p>
+      old
+    </p>
+    <p>
+      fast
+    </p>
+    <p>
+      atta boy
+    </p>
+  </li>
+</ul>
+`;

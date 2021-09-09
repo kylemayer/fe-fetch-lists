@@ -6,7 +6,19 @@ export default class ListPage extends Component {
     return (
       <div className={style.list}>
         <h3>Villagers from the village</h3>
-        <VillagerList />
+        <VillagerList
+          villagers={[
+            {
+              id: 1,
+              name: 'Apple',
+              image: 'test',
+              species: 'test',
+              birthday: 'old',
+              skill: 'fast',
+              phrase: 'atta boy'
+            }
+          ]}
+        />
 	   </div>
     );
   }

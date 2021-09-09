@@ -7,6 +7,6 @@ describe('List Page', () => {
     render(<ListPage />);
 
     const ul = await screen.findByRole('list', { name: 'villagers' });
-    expect(ul).toBeInTheDocument();
+    expect(ul).toMatchSnapshot();
   });
 });

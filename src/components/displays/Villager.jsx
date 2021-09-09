@@ -5,9 +5,9 @@ const Villager = ({ name, image, species, birthday, skill, phrase }) => (
   <>
     <h3>{name}</h3>
     <img alt={name} src={image} />
-    <span>{species}</span>
-    <span>{birthday}</span>
-    <span>{skill}</span>
+    <p>{species}</p>
+    <p>{birthday}</p>
+    <p>{skill}</p>
     <p>{phrase}</p>
   </>
 );
