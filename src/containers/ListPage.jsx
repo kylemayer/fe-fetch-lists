@@ -17,9 +17,10 @@ export default class ListPage extends Component {
     return (
       <div className={style.list}>
         <h3>Villagers from the village:</h3>
-        {this.state.loading
-          ? <p>Loading!</p>
-          : <VillagerList villagers={this.state.villagers} />
+        {
+          this.state.loading
+            ? <p>Loading...</p>
+            : <VillagerList villagers={this.state.villagers} />
         }
       </div>
     );

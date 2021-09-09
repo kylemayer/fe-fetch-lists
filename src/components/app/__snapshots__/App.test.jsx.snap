@@ -9,33 +9,11 @@ exports[`App component renders App 1`] = `
     class="list"
   >
     <h3>
-      Villagers from the village
+      Villagers from the village:
     </h3>
-    <ul
-      aria-label="villagers"
-    >
-      <li>
-        <h3>
-          Apple
-        </h3>
-        <img
-          alt="Apple"
-          src="test"
-        />
-        <p>
-          test
-        </p>
-        <p>
-          old
-        </p>
-        <p>
-          fast
-        </p>
-        <p>
-          atta boy
-        </p>
-      </li>
-    </ul>
+    <p>
+      Loading...
+    </p>
   </div>
 </DocumentFragment>
 `;
