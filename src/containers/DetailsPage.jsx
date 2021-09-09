@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React, { Component } from 'react';
 import VillagerDetail from '../components/displays/VillagerDetail';
 import { reqVillagerById } from '../services/reqVillagers';
