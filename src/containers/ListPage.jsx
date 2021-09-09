@@ -16,7 +16,7 @@ export default class ListPage extends Component {
   render() {
     return (
       <div className={style.list}>
-        <h3>Villagers from the village:</h3>
+        <h2>Villagers from the village:</h2>
         {
           this.state.loading
             ? <p>Loading...</p>

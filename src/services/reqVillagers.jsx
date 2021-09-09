@@ -13,3 +13,9 @@ export const reqVillagers = async () => {
   }));
 };
 
+export const reqVillagerById = async (id) => {
+  const res = await fetch(`https://ac-vill.herokuapp.com/villagers/${id}`);
+  const villager = await res.json();
+
+  return villager;
+};
