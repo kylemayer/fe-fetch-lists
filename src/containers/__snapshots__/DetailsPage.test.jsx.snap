@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Page should render the List page 1`] = `
+<ul
+  aria-label="villagers"
+>
+  <li>
+    <a
+      href="/1"
+    >
+      <h3>
+        Admiral
+      </h3>
+      <img
+        alt="Admiral"
+        class="Villager"
+        src="example.com/image.png"
+      />
+      <p>
+        bird
+      </p>
+      <p>
+        January 27th (Aquarius)
+      </p>
+      <p>
+        Writing about pickles
+      </p>
+      <p>
+        aye aye
+      </p>
+    </a>
+  </li>
+</ul>
+`;
